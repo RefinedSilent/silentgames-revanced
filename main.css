@@ -241,7 +241,7 @@ https://templatemo.com/tm-597-neural-glass
      font-weight: 500;
      letter-spacing: 0.02em;
 }
-.nav-link a.active {
+.nav-links a::after {
      color: #e0a3ff;
      background: linear-gradient(135deg, rgba(224, 163, 255, 0.15), rgba(255, 105, 180, 0.1));
      box-shadow: 0 0 20px rgba(224, 163, 255, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 4px 15px rgba(224, 163, 255, 0.2);
@@ -249,7 +249,7 @@ https://templatemo.com/tm-597-neural-glass
      text-shadow: 0 0 10px rgba(224, 163, 255, 0.8);
      transform: translateY(-1px);
 }
- .nav-links a.active:hover::after {
+ .nav-links a:hover::after {
      content: '';
      position: absolute;
      top: -2px;
